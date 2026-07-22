@@ -1,6 +1,11 @@
 ![Banner](./banner.png)
 # err
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/ameershira/err.svg)](https://pkg.go.dev/github.com/ameershira/err)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/ameershira/err)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ameershira/err/go.yml)
+![GitHub](https://img.shields.io/github/license/ameershira/err)
+
 `err` is a small Go error-handling helper package that produces a **single `error` value enriched with call-site context**
 (file, line number, and function name), while remaining fully compatible with Go’s standard `errors` APIs.
 
